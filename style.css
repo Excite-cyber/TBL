@@ -1,0 +1,80 @@
+.menu{
+position: fixed;
+background:white;
+width:100%;
+margin-top:0px;
+top:0px;
+z-index:10;
+}
+.links{
+display:inline;
+padding-left:33px ;
+padding-right:25px ;
+font-size:20px ;
+font-family:fantasy ;
+}
+.links:hover{
+font-size:25px ;
+text-decoration:underline ;
+}
+#name{
+font-family:"Cinzel Decorative",cursive;
+font-size:50px;
+}
+#bio{
+padding:50px;
+font-family:"Cinzel Decorative",cursive;
+}
+body {
+margin:0;
+padding-top:550px;
+text-align: center;
+}
+.profile{
+    border-radius:50%;
+}
+#welcome{
+position:absolute;
+bottom:0;
+background:linear-gradient(#60ebeb 0% #27ae60);
+display:table;
+height: 100%;
+width:100%;
+}
+h1{
+font-size:40px ;
+font-family:sans-serif ;
+font-weight:300;
+}
+h2{
+font-size: 30px;
+font-weight:300;
+font-family:monospace ;
+}
+#bio{
+    font-family:cursive ;
+    padding:50px ;
+}
+line{
+height:6px ;
+width:70px ;
+margin:8px auto ;
+background-color:#000 ;
+}
+.parallax-inner{
+display:table-cell ;
+vertical-align: middle;
+}
+a{
+    text-decoration:none;
+}
+#writing a {
+text-decoration:underline !important;
+color: green !important;
+}
+#contact {
+    background: lightgray;
+}
+.contact_1 h3{
+display: inline;
+}
